@@ -55,7 +55,7 @@
 2020-11-26 08:55:02.296  INFO 21992 --- [http-nio-8080-exec-2] c.u.e.controllers.UserController         : Username set with radu
 2020-11-26 08:55:02.335 ERROR 21992 --- [http-nio-8080-exec-2] c.u.e.controllers.UserController         : CreateUser failure: Password length less than required length of 7 characters. Cannot create user radu. 
 2020-11-26 08:55:30.149  INFO 21992 --- [http-nio-8080-exec-4] c.u.e.controllers.UserController         : Username set with radu
-2020-11-26 08:55:30.335 ERROR 21992 --- [http-nio-8080-exec-2] c.u.e.controllers.UserController         : CreateUser failure: Password does not equal confirmPassword. Cannot create user radu.
+2020-11-26 08:55:30.335 ERROR 21992 --- [http-nio-8080-exec-4] c.u.e.controllers.UserController         : CreateUser failure: Password does not equal confirmPassword. Cannot create user radu.
 2020-11-26 08:55:40.149  INFO 21992 --- [http-nio-8080-exec-4] c.u.e.controllers.UserController         : Username set with radu
 2020-11-26 08:55:40.238  INFO 21992 --- [http-nio-8080-exec-4] c.u.e.controllers.UserController         : CreateUser success: User radu created with requested username, cart, and encoded password
 2020-11-26 09:00:48.407  INFO 21992 --- [http-nio-8080-exec-8] c.u.e.controllers.OrderController        : Order Request Success: User test was found with order submitted
