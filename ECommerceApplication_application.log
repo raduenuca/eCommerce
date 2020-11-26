@@ -1,0 +1,59 @@
+2020-11-26 08:48:49.334  INFO 10832 --- [main] c.u.ecommerce.ECommerceApplication       : Starting ECommerceApplication using Java 15.0.1 on Gogless-AI with PID 10832 (C:\Users\radue\Documents\Projects\nd035-jwdnd\eCommerce\target\classes started by radue in C:\Users\radue\Documents\Projects\nd035-jwdnd\eCommerce)
+2020-11-26 08:48:49.336  INFO 10832 --- [main] c.u.ecommerce.ECommerceApplication       : No active profile set, falling back to default profiles: default
+2020-11-26 08:48:49.922  INFO 10832 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+2020-11-26 08:48:49.988  INFO 10832 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 59 ms. Found 4 JPA repository interfaces.
+2020-11-26 08:48:50.456  INFO 10832 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-11-26 08:48:50.466  INFO 10832 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-11-26 08:48:50.467  INFO 10832 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.39]
+2020-11-26 08:48:50.579  INFO 10832 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-11-26 08:48:50.581  INFO 10832 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1207 ms
+2020-11-26 08:48:50.720  INFO 10832 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-11-26 08:48:50.754  INFO 10832 --- [task-1] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-11-26 08:48:50.799  INFO 10832 --- [task-1] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.23.Final
+2020-11-26 08:48:50.812  WARN 10832 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-11-26 08:48:50.913  INFO 10832 --- [task-1] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2020-11-26 08:48:50.956  INFO 10832 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@4e245739, org.springframework.security.web.context.SecurityContextPersistenceFilter@834e986, org.springframework.security.web.header.HeaderWriterFilter@115dcaea, org.springframework.web.filter.CorsFilter@5d66e944, org.springframework.security.web.authentication.logout.LogoutFilter@21de60a7, com.udacity.ecommerce.security.JWTAuthenticationFilter@469a7575, com.udacity.ecommerce.security.JWTAuthorizationFilter@4351ed61, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@604d23fa, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@5d7d8613, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@2f20f7ad, org.springframework.security.web.session.SessionManagementFilter@45117dd, org.springframework.security.web.access.ExceptionTranslationFilter@667dcaad, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@f171912]
+2020-11-26 08:48:50.999  INFO 10832 --- [task-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-11-26 08:48:51.132  INFO 10832 --- [task-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-11-26 08:48:51.144  INFO 10832 --- [task-1] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2020-11-26 08:48:51.277  INFO 10832 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-11-26 08:48:51.279  INFO 10832 --- [main] DeferredRepositoryInitializationListener : Triggering deferred initialization of Spring Data repositories…
+2020-11-26 08:48:51.730  INFO 10832 --- [task-1] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-11-26 08:48:51.737  INFO 10832 --- [task-1] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-11-26 08:48:51.954  INFO 10832 --- [main] DeferredRepositoryInitializationListener : Spring Data repositories initialized!
+2020-11-26 08:48:51.961  INFO 10832 --- [main] c.u.ecommerce.ECommerceApplication       : Started ECommerceApplication in 2.895 seconds (JVM running for 3.617)
+2020-11-26 08:48:56.376  INFO 10832 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-11-26 08:48:56.378  INFO 10832 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-11-26 08:48:56.381  INFO 10832 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2020-11-26 08:53:06.357  INFO 21992 --- [main] c.u.ecommerce.ECommerceApplication       : Starting ECommerceApplication using Java 15.0.1 on Gogless-AI with PID 21992 (C:\Users\radue\Documents\Projects\nd035-jwdnd\eCommerce\target\classes started by radue in C:\Users\radue\Documents\Projects\nd035-jwdnd\eCommerce)
+2020-11-26 08:53:06.359  INFO 21992 --- [main] c.u.ecommerce.ECommerceApplication       : No active profile set, falling back to default profiles: default
+2020-11-26 08:53:06.820  INFO 21992 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+2020-11-26 08:53:06.880  INFO 21992 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 53 ms. Found 4 JPA repository interfaces.
+2020-11-26 08:53:07.221  INFO 21992 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-11-26 08:53:07.228  INFO 21992 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-11-26 08:53:07.228  INFO 21992 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.39]
+2020-11-26 08:53:07.316  INFO 21992 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-11-26 08:53:07.318  INFO 21992 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 919 ms
+2020-11-26 08:53:07.409  INFO 21992 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-11-26 08:53:07.436  INFO 21992 --- [task-1] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-11-26 08:53:07.476  INFO 21992 --- [task-1] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.23.Final
+2020-11-26 08:53:07.479  WARN 21992 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-11-26 08:53:07.557  INFO 21992 --- [task-1] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2020-11-26 08:53:07.596  INFO 21992 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@4351ed61, org.springframework.security.web.context.SecurityContextPersistenceFilter@1cc8416a, org.springframework.security.web.header.HeaderWriterFilter@7741771e, org.springframework.web.filter.CorsFilter@2f20f7ad, org.springframework.security.web.authentication.logout.LogoutFilter@7a9ceddf, com.udacity.ecommerce.security.JWTAuthenticationFilter@45e617c4, com.udacity.ecommerce.security.JWTAuthorizationFilter@5042e3d0, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@2e5e6fc4, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@3bc69ce9, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@1c34365c, org.springframework.security.web.session.SessionManagementFilter@6cae2e4d, org.springframework.security.web.access.ExceptionTranslationFilter@19fd43da, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@29bcf51d]
+2020-11-26 08:53:07.631  INFO 21992 --- [task-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-11-26 08:53:07.719  INFO 21992 --- [task-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-11-26 08:53:07.729  INFO 21992 --- [task-1] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2020-11-26 08:53:07.837  INFO 21992 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-11-26 08:53:07.840  INFO 21992 --- [main] DeferredRepositoryInitializationListener : Triggering deferred initialization of Spring Data repositories…
+2020-11-26 08:53:08.193  INFO 21992 --- [task-1] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-11-26 08:53:08.198  INFO 21992 --- [task-1] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-11-26 08:53:08.383  INFO 21992 --- [main] DeferredRepositoryInitializationListener : Spring Data repositories initialized!
+2020-11-26 08:53:08.390  INFO 21992 --- [main] c.u.ecommerce.ECommerceApplication       : Started ECommerceApplication in 2.333 seconds (JVM running for 3.074)
+2020-11-26 08:53:22.795  INFO 21992 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-11-26 08:53:22.795  INFO 21992 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-11-26 08:53:22.798  INFO 21992 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2020-11-26 08:55:02.296  INFO 21992 --- [http-nio-8080-exec-2] c.u.e.controllers.UserController         : Username set with radu
+2020-11-26 08:55:02.335 ERROR 21992 --- [http-nio-8080-exec-2] c.u.e.controllers.UserController         : CreateUser failure: Password length less than required length of 7 characters. Cannot create user radu. 
+2020-11-26 08:55:30.149  INFO 21992 --- [http-nio-8080-exec-4] c.u.e.controllers.UserController         : Username set with radu
+2020-11-26 08:55:30.238  INFO 21992 --- [http-nio-8080-exec-4] c.u.e.controllers.UserController         : CreateUser success: User radu created with requested username, cart, and encoded password
+2020-11-26 09:00:48.407  INFO 21992 --- [http-nio-8080-exec-8] c.u.e.controllers.UserController         : Username used to find user is 
