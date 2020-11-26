@@ -58,7 +58,7 @@
 2020-11-26 08:55:30.335 ERROR 21992 --- [http-nio-8080-exec-4] c.u.e.controllers.UserController         : CreateUser failure: Password does not equal confirmPassword. Cannot create user radu.
 2020-11-26 08:55:40.149  INFO 21992 --- [http-nio-8080-exec-4] c.u.e.controllers.UserController         : Username set with radu
 2020-11-26 08:55:40.238  INFO 21992 --- [http-nio-8080-exec-4] c.u.e.controllers.UserController         : CreateUser success: User radu created with requested username, cart, and encoded password
-2020-11-26 09:00:48.407  INFO 21992 --- [http-nio-8080-exec-8] c.u.e.controllers.OrderController        : Order Request Success: User test was found with order submitted
+2020-11-26 09:00:48.407  INFO 21992 --- [http-nio-8080-exec-8] c.u.e.controllers.OrderController        : Order Request Success: User radu was found with order submitted
 2020-11-26 12:50:45.974  INFO 25504 --- [main] c.u.e.controllers.CartControllerTest     : Starting CartControllerTest using Java 15.0.1 on Gogless-AI with PID 25504 (started by radue in C:\Users\radue\Documents\Projects\nd035-jwdnd\eCommerce)
 2020-11-26 12:50:45.978  INFO 25504 --- [main] c.u.e.controllers.CartControllerTest     : No active profile set, falling back to default profiles: default
 2020-11-26 12:50:47.351  INFO 25504 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFERRED mode.
